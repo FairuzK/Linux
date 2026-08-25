@@ -2,7 +2,9 @@
 The OverTheWire Bandit exercises are a series of online challenges designed to teach basic Linux command-line skills. Below are solutions to the different levels.
 
 Level 0 starts by testing how to use the ssh command and has no flag or password, only requires using the syntax below.
->`ssh -p 2220 bandit.labs.overthewire.org -l bandit0`
+```bash
+ssh -p 2220 bandit.labs.overthewire.org -l bandit0
+ ```
 
 ## Bandit Level 1 - 2
 ### Commands Used
