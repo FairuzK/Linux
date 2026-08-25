@@ -111,5 +111,14 @@ Learn how to translate characters in a file using the tr command.
 ## Bandit Level 12-13
 ### Commands Used
 ```bash
+mkdir /tmp/bandit
+cp data.txt /tmp/bandit
+cd /tmp/bandit
+xxd -r data.txt > data
+file data
+gzip -d data.gz
+bzip2 -d data.bz2
+tar -xf data.tar
 ```
 ### Lessons
+Learn how to extract and decompose different archive formats
