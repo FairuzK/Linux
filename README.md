@@ -1,4 +1,4 @@
-# Linux Learning & DevOps Cheatsheet
+# Linux & DevOps Cheatsheet
 
 Beginner-friendly Linux notes, commands, troubleshooting tips, and practical DevOps context.
 
