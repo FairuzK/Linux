@@ -164,39 +164,57 @@ ssh -i sshkey.private bandit14@localhost -p 2220
 ## Bandit Level 14-15
 ### Commands Used
 ```bash
+cat /etc/bandit_pass/bandit14
+nc localhost 30000
 ```
 ### Lessons
+- Learn how to connect to a service using Netcat.
 ---
 
 ## Bandit Level 15-16
 ### Commands Used
 ```bash
+openssl  s_client -connect localhost:30001
 ```
 ### Lessons
+- Learn how to establish a secure SSL/TLS connection.
 ---
 
 ## Bandit Level 16-17
 ### Commands Used
 ```bash
+nmap localhost
+openssl s_client -connect localhost:31790
 ```
 ### Lessons
+- Learn how to scan ports and identify the correct device.
 ---
+
 ## Bandit Level 17-18
 ### Commands Used
 ```bash
+diff passwords.old passwords.new
 ```
 ### Lessons
+- Learn how to compare two files using the diff command
 ---
+
 ## Bandit Level 18-19
 ### Commands Used
 ```bash
+ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
 ```
 ### Lessons
+- Learn how to execute a command during an SSH connection.
 ---
+
 ## Bandit Level 19-20
 ### Commands Used
 ```bash
+ls
+./bandit20-do cat /etc/bandit_pass/bandit20
 ```
 ### Lessons
+- Learn how to run a command with another permission.
 ---
 
