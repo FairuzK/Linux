@@ -215,6 +215,6 @@ ls
 ./bandit20-do cat /etc/bandit_pass/bandit20
 ```
 ### Lessons
-- Learn how to run a command with another permission.
+- Learn how to run a command with another permission..
 ---
 
