@@ -151,4 +151,52 @@ tar -xf data.tar
 - Learn how to extract and decompose different archive formats
 ---
 
+## Bandit Level 13-14
+### Commands Used
+```bash
+ls
+ssh -i sshkey.private bandit14@localhost -p 2220
+```
+### Lessons
+- Learn how to log in using an SSH private key
+---
+
+## Bandit Level 14-15
+### Commands Used
+```bash
+```
+### Lessons
+---
+
+## Bandit Level 15-16
+### Commands Used
+```bash
+```
+### Lessons
+---
+
+## Bandit Level 16-17
+### Commands Used
+```bash
+```
+### Lessons
+---
+## Bandit Level 17-18
+### Commands Used
+```bash
+```
+### Lessons
+---
+## Bandit Level 18-19
+### Commands Used
+```bash
+```
+### Lessons
+---
+## Bandit Level 19-20
+### Commands Used
+```bash
+```
+### Lessons
+---
 
