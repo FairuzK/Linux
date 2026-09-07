@@ -21,6 +21,7 @@ sudo chown root:root hello.sh
 ### Understanding permissions
 ```bash
 ls -l hello.sh
+
 ```
 #### Output: -rwxr-xr-x 1 root root 32 Aug 20 11:00 hello.sh
 #### Breakdown: owner(rwx) group(r-x) others(r-x)
