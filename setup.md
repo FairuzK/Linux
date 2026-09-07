@@ -6,8 +6,8 @@ These are tasks you can get comfortable with the Linux Fundamentals
 - Use WSl2 (Windows Subsystem for Linux)
 - Can use AWS EC2 (t2 micro free tier)
 - Use a VirtualBox / VMware VM
-  
-# Commands Verifying Setup
+
+### Commands Verifying Setup
 ```bash
 uname -a
 whoami
